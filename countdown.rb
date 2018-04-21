@@ -14,5 +14,6 @@ puts "HAPPY NEW YEAR!"
 #end
 
 def countdown_with_sleep(number)
-  countdown(sleep 1)
+  countdown(number)
+  sleep 1s
 end  
